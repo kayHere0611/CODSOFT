@@ -46,7 +46,7 @@ public class NumGame {
                 attemptsTaken++;
 
                 if (userGuess == randomNumber) {
-                    System.out.println("🎉 Correct! You guessed the number in " + attemptsTaken + " attempts.");
+                    System.out.println("🎉(Emoji) Correct! You guessed the number in " + attemptsTaken + " attempts.");
                     isCorrect = true;
                     roundsWon++;
                     // Score calculation: higher score for fewer attempts
@@ -61,7 +61,7 @@ public class NumGame {
             }
 
             if (!isCorrect) {
-                System.out.println("😢 Game Over for this round! You've run out of attempts.");
+                System.out.println("😢(Emoji) Game Over for this round! You've run out of attempts.");
                 System.out.println("The correct number was: " + randomNumber);
             }
 
